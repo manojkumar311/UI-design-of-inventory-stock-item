@@ -1,0 +1,72 @@
+<html>
+  <head>
+
+    <title>Javascript Login Form Validation</title>
+
+	<!-- include css file here-->
+    <link rel="stylesheet" href="css/style.css"/>
+	
+	<!-- include javascript file here-->
+    <script src="js/login.js"></script> 
+
+      <style> 
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+     background-color: #3CBC8D; 
+    color: white;
+}
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+    padding: 14px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: orange;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+</style>
+
+
+  </head>
+  <body bgcolor="black">
+
+	<div class="container">
+	  <div class="main">
+		<h2>LOGIN       FORM</h2><hr/>
+ 
+		<form id="form_id" method="post" name="myform">
+                   
+		  <label>User Name :</label></br>
+		  <input type="text" name="username" id="username"/></br>
+ 
+		  <label>Password :</label></br>
+		  <input type="password" name="password" id="password"/></br>
+                   
+		  <input type="button" value="Login" id="submit" onclick="validate()"/>
+		</form>
+		<span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b> </br></br></span>
+             <a href="home.html">GO  BACK</a>
+	  </div>
+	  <div class="fugo">
+		
+	  </div>
+	</div> 
+ </body>
+</html>
